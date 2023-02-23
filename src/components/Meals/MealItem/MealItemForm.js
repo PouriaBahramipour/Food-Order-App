@@ -2,7 +2,6 @@ import classes from "./MealItemForm.module.css";
 import Input from "../../UI/Input";
 const MealItemForm = () => {
   const rnd = Math.floor(Math.random() * 1000);
-  console.log(rnd);
   return (
     <form className={classes.form}>
       <Input
